@@ -1,0 +1,543 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Merriweather:wght@300&family=Poppins:wght@300;400;500;600;700;800&family=Sacramento&family=Ysabeau+Infant:wght@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+ width: 100%;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    background-color:#1a1a1a;
+    
+
+}
+.navbar1{
+     width: 100%;
+    height: 12vh;
+    padding: 2vh 5vw;
+    
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+.navitem {
+    display: flex;
+    gap: 2vw;
+
+}
+.navitem a{
+    text-decoration: none;
+}
+.logo h3{
+    font-size: 2.5vmax;
+    color: rgb(225, 225, 225);
+}
+.navitem h6{
+    font-size: 1.1vmax;
+    font-weight: 600;
+    color: rgb(225, 225, 225);
+    cursor: pointer;
+
+}
+.navitem h6:hover{
+    border-bottom: 2px solid #fff;
+    color:orange;
+}
+
+
+
+
+
+.p1content{
+
+    margin-top: 5vmax;    
+    margin-left: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.p1img img{
+    width: 75vmin;
+    height: 75vmin;
+    
+}
+
+
+
+.p1img{
+    width:fit-content;
+}
+
+.p1text{
+    
+    width: 60%;
+
+}
+.p1text h1{
+    
+    font-size: 5vmax;
+    color: #fff;
+    width: 60%;
+    line-height: 80px;
+
+}
+.p1text p{
+    margin-top: 10px;
+    font-size:1vmax ;
+    color: #fff;
+    width: 50%;
+
+}
+.p1text h1 span{
+    color: orange;
+}
+
+.buttonp1{
+    padding: 20px 0px;
+}
+
+.buttonp1 button{
+    
+    margin-top: 15px;
+    font-size:1.2vmax ;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 2px solid #232535;
+    border-radius: 20px;
+    color: #00bbff;
+    background-color: transparent;
+    margin-right: 5px;
+}
+.buttonp1 button:hover{
+    color:black;
+    background-color:orange;
+}
+
+.page2{
+    width: 100%;
+    height: 70vh;
+    background-color:#1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.p2content{
+
+    display: flex;
+    width:60%;
+    
+    background-color: #2423239f;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px 3vmax;
+}
+.p2content_image img{
+    width: 50vmin;
+    height: 40vmin;
+}
+.contentp2{
+    width:50%;
+    
+}
+.contentp2 h2{
+    font-size: 3vmax;
+    color: orange;
+    margin-bottom: 2vw;
+    
+
+}
+
+.contentp2 p{
+    width: 70%;
+    font-size: 0.91vmax;
+    color: #fff;
+    text-align: left;
+    line-height: 20px;
+    margin-bottom: 2vw;
+}
+.p2content_image{
+    width: fit-content;
+}
+
+.contentp2 button{
+    padding: 10px 20px;
+    border: 1px solid rgb(237, 164, 27);   
+    color: white;
+    background-color: transparent;
+    margin-bottom: 20px;
+}
+.contentp2 button:hover{
+  color: black;
+  background-color: orange;
+}
+.page3{
+    
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #1a1a1a;
+}
+.page3 h1{
+    padding-top: 30px;
+    color: orange;
+    font-size: 6vmin;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p3infocontent {
+        
+  
+    width: 25vmax;
+    box-shadow: 1px 4px 0px 4px #1d1d1d;
+    border: 1px solid #181818;
+    margin-bottom: 20px;
+    
+
+
+}
+.p3content{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+    flex-wrap: wrap;
+
+
+}
+
+.p3infocontent img{
+    padding-left: 7px;
+    width: fit-content;
+  
+    width: 24vmax;
+    height: 20vmax;
+}
+
+.p3infocontent h3{
+    padding-left:10px ;
+    color: orange;
+    font-size: larger;
+    font-weight: 900;
+}
+.p3infocontent hr{
+    color: orange;
+}
+
+.p3infocontent p{
+    font-size: medium;
+    color: #fff;
+    padding-left: 10px;
+    width: 80%;
+}
+.p3infocontent button{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 1px solid orange;
+    color: white;
+    background-color: transparent;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.p3infocontent button:hover{
+    color:black;
+    background-color: orange;
+}
+.page4{
+
+    width: 100%;
+    height: 100vh;
+    background-color: #1a1a1a;
+   
+}
+.p4heading{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p4heading h1{
+
+    border-bottom: 2px solid orange;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: orange;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.p4content{
+    margin-top: 20px;
+    display: flex;
+    
+   
+    
+    padding: 0px 100px;
+   
+    width: 100%;
+
+
+}
+.in{
+    position: relative;
+}
+.contactme{
+    width: 50%;
+    
+    background-color: rgb(43, 42, 42);
+    position: relative;
+    border-radius: 10px;
+}
+.contactme input{
+    margin: 40px 20px;
+   padding: 20px 20px;
+   border: 2px solid rgb(84, 83, 83);
+   border-radius: 5px;
+   background-color: transparent;
+    font-size: 18px;
+    color: #a3a3a3;
+    width: 50%;
+}
+.submitbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.submitbtn input{
+    
+    
+
+    font-size: 20px;
+    font-weight: 800;
+    padding: 20px 20px;
+    border-radius: 10px;
+    color: #1d1d1d;
+
+    border: 1px solid #000000;
+    background-color: orange;
+}
+
+
+
+.p4input{
+ 
+ display: flex;   
+
+
+}
+.aboutus{
+    display: inline-block;
+    width: 50%;
+    padding-left: 20px;
+    justify-content: center;
+}
+.aboutus h3{
+    font-size: 35px;
+    color: rgb(240, 238, 234);
+}
+.aboutus h3 span{
+    font-size: 35px;
+    color:orange;
+
+} 
+.aboutus p{
+    padding: 20px 5px;
+    font-size: 20px;
+    color: rgb(240, 238, 234);
+}
+.textarea{
+    position: relative;
+    height: 170px;
+    margin: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 95%;
+    background-color: transparent;
+    padding:10px 10px;
+    color: #afafaf;
+    
+}
+
+.page5{
+    width: 100%;
+    height: 100vh;
+    background-color: #1a1a1a;
+    position: relative;
+}
+.p5heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p5heading h1 span{
+    border-bottom: 2px solid orange;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: orange;
+    font-size: 40px;
+    font-weight: 900;
+}
+.p5heading h1 {
+   
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: rgb(241, 241, 241);
+    font-size: 40px;
+    font-weight: 900;
+}
+.p5text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.p5text p{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+
+}
+.review{
+    margin: 100px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+
+}
+
+.p1review{
+    width: 25%;
+    background-color: rgba(66, 59, 59, 0.55);
+    border-radius: 13px;
+   
+
+}
+.p1reviewImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.p1reviewImage img{
+    padding: 10px 10px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+
+}
+.headingp5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+
+}
+.headingp5 h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: orange;
+}
+.contentp5{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+.contentp5 p{
+    padding: 10px 20px;
+    text-align: center;
+
+    font-size: 10px;
+    color: #ffffffb7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    .navitem{
+        display: none;
+    }
+    .p1text h1{
+        width: 100%;
+        line-height: 35px;
+    }
+    .p1text p{
+        width: 70%;
+    }
+    .p1text{
+        width: 90%;
+    }
+    .buttonp1 button{
+        margin-top: 5px;
+        
+    }
+    .contentp2 button{
+        font-size: 10px;
+        padding: 2px 5px;
+    }
+
+    .contentp2 {
+        margin-left: 15px;
+        width:100%;
+    }
+
+    .contentp2 p{
+        font-size: 10px;
+        text-align: left;
+        align-items: center;
+        line-height: 14px;
+    }
+    .contentp2 button{
+        margin-bottom: 20px;
+    }
+    .p3infocontent p{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    .p3infocontent button{
+        font-size: 12px;
+        padding: 3px 5px;
+
+    }
+}
