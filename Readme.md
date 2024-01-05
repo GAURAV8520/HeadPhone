@@ -29,7 +29,7 @@ This project is a basic implementation of an e-commerce website for purchasing h
 
 1)Screenshot of the Home Page
 
-![Alt text](image-1.png)
+![!\[Alt text\](image-1.png)](image.png)
 
 2)Screenshot of the Product Details Page
 
