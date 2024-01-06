@@ -21,6 +21,7 @@ This project is a basic implementation of an e-commerce website for purchasing h
 ├── styles.css
 
 ├── images/
+
 │ ├── headphone1.jpg
 
 │ ├── headphone2.jpg
