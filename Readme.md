@@ -17,19 +17,19 @@ This project is a basic implementation of an e-commerce website for purchasing h
 
 ## Folder Structure
 ├── index.html
-
+|
 ├── styles.css
-
+|
 ├── images/
-
-│ ├── headphone1.jpg
-
-│ ├── headphone2.jpg
-
-│ ├── earphone1.jpg
-
-│ └── earphone2.jpg
-
+|
+├── headphone1.jpg
+|
+├── headphone2.jpg
+|
+├── earphone1.jpg
+|
+└── earphone2.jpg
+|
 └── README.md
 
 ## Screenshots
